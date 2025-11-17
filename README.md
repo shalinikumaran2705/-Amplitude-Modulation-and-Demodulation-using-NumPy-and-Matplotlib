@@ -55,6 +55,7 @@ plt.show()
  <img width="630" height="469" alt="image" src="https://github.com/user-attachments/assets/5e4c23eb-2943-4c6e-aa71-751b91f685ce" />
 
  __Result__:
+ 
  The message signal, carrier signal, and amplitude modulated (AM) signal will be displayed in separate plots. Thus, AM is implemented using numPy and Matplotlib.
 
 
