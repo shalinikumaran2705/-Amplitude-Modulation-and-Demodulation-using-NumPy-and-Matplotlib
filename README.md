@@ -28,10 +28,10 @@ __Program__:
 ```
 import numpy as np 
 import matplotlib.pyplot as plt 
-Am = 14.1
-Fm = 530
-Ac = 28.2 
-Fc = 5300 
+Am = 13.5
+Fm = 740
+Ac = 27
+Fc = 7400
 Fs = 295000 
 t = np.arange(0, 2/Fm, 1/Fs) 
 em = Am * np.sin(2 * np.pi * Fm * t) 
@@ -52,7 +52,12 @@ plt.show()
 
  __Output__:
 
- <img width="630" height="469" alt="image" src="https://github.com/user-attachments/assets/5e4c23eb-2943-4c6e-aa71-751b91f685ce" />
+ <img width="793" height="594" alt="image" src="https://github.com/user-attachments/assets/7af04d60-9ea6-4232-8032-929736b0939f" />
+
+
+__Tabluation__:
+
+ <img width="712" height="540" alt="image" src="https://github.com/user-attachments/assets/156013ab-3dc7-4710-8c70-04774d11b5d0" />
 
  __Result__:
  
